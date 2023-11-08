@@ -22,7 +22,7 @@ function Header() {
                 Rizwaan, Kichhauchha Shareef.
             </h4> */}
 
-            <h4 className="mt-4">
+            {/* <h4 className="mt-4">
                 Under the spirutual patronage of:
                 <br />
                 Qutub-e-Adoni Qutub-ud-Dawaayir Ashraf-ul-Ma'aasir
@@ -33,7 +33,7 @@ function Header() {
             <h4 className="mt-4">
                 A'alaa Hazrath Mujaddid-e-Deen wa Millat Ash-Shah Imaam Ahmad
                 Raza Khan Alaihi Rahmatu wa Rizwaan, Bareilly Shareef.
-            </h4>
+            </h4> */}
 
             {/* <h4 className="mt-4">
                 Sayyid Sarkar Valiyullah Hussaini Al-Maroof Hazrath Mastan Vali
@@ -81,6 +81,12 @@ function Header() {
                 Zer-e-Sarparasti Peer-e-Triqat Hazrath Al-Haaj Ghulam Mohammed
                 Ghouse Pasha Naqshbandi, Hyderabad.
             </h4> */}
+
+            <h4 className="mt-4">
+                With the blessings of Grand Parents:
+                <br />
+                Mrs. & Mr. Syed Abdul Rahman(Late)
+            </h4>
 
             <div className="bg-container"></div>
         </section>

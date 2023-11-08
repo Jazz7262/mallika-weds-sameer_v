@@ -56,73 +56,149 @@ function Timeline() {
                 <h1 className="inshaallaah">Inshaallaah ...</h1>
                 <div className="wrapper">
                     {/* shukrana included */}
-                    <>
-                        <div className="row">
-                            <div className="col-lg-6 left" data-aos="fade-down">
-                                <h1>Shukrana</h1>
-                                <p>
-                                    On Saturday, 04<sup>th</sup> November, 2023.
-                                    <br />
-                                    20<sup>th</sup> Rabi-ul-Aakhir, 1445 Hijri,
-                                    <br />
-                                    Time: 09:00 PM.
-                                </p>
+                    {/* <> 
+                    //     <div className="row">
+                    //         <div className="col-lg-6 left" data-aos="fade-down">
+                    //             <h1>Shukrana</h1>
+                    //             <p>
+                    //                 On Saturday, 04<sup>th</sup> November, 2023.
+                    //                 <br />
+                    //                 20<sup>th</sup> Rabi-ul-Aakhir, 1445 Hijri,
+                    //                 <br />
+                    //                 Time: 09:00 PM.
+                    //             </p>
 
-                                <h2>Venue:</h2>
-                                <p>
-                                    KKB Function Hall,
-                                    <br /> NGO's Colony,
-                                    <br /> Adoni.
-                                </p>
-                            </div>
-                            <div
-                                className="col-lg-6 right"
-                                data-aos="fade-down"
-                            ></div>
-                        </div>
+                    //             <h2>Venue:</h2>
+                    //             <p>
+                    //                 KKB Function Hall,
+                    //                 <br /> NGO's Colony,
+                    //                 <br /> Adoni.
+                    //             </p>
+                    //         </div>
+
+                    //         <div
+                    //             className="col-lg-6 right"
+                    //             data-aos="fade-down"
+                    //         ></div>
+                    //     </div>
+                    //     <div className="row">
+                    //         <div
+                    //             className="col-lg-6 left next"
+                    //             data-aos="fade-down"
+                    //             data-aos-offset="200"
+                    //         ></div>
+                    //         <div
+                    //             className="col-lg-6 right next"
+                    //             data-aos="fade-down"
+                    //             data-aos-offset="200"
+                    //         >
+                    //             <h1>Nikaah</h1>
+                    //             <p>
+                    //                 On Sunday, 05<sup>th</sup> November, 2023,
+                    //                 <br />
+                    //                 21<sup>st</sup> Rabi-ul-Aakhir, 1445 Hijri,
+                    //                 <br /> Time: 12:45 PM.
+                    //             </p>
+
+                    //             {/* <h2>Venue:</h2>
+                    //             <p>
+                    //                 Masjid -e- Shekhan,
+                    //                 <br /> Near Yemmiganur By-pass Road,
+                    //                 <br /> Tirumala Nagar,
+                    //                 <br /> Adoni.
+                    //             </p> 
+
+                    //             <h2>Lunch Follows:</h2>
+                    //             <p>
+                    //                 Roshan Garden,
+                    //                 <br /> Near Art's College,
+                    //                 <br /> Yemmiganur Road,
+                    //                 <br /> Tirumala Nagar,
+                    //                 <br /> Adoni.
+                    //             </p> 
+
+                    //             <h2>Venue:</h2>
+                    //             <p>
+                    //                 KKB Function Hall,
+                    //                 <br /> NGO's Colony,
+                    //                 <br /> Adoni.
+                    //             </p>
+                    //         </div>
+                    //     </div>
+                    //     <div className="row">
+                    //         <div
+                    //             className="col-lg-6 left next"
+                    //             data-aos="fade-down"
+                    //             data-aos-offset="200"
+                    //             data-aos-delay="100"
+                    //         >
+                    //             <h1>Valima</h1>
+
+                    //             <p>
+                    //                 On Monday, 06<sup>th</sup> November, 2023,
+                    //                 <br />
+                    //                 22<sup>nd</sup> Rabi-ul-Aakhir, 1445 Hijri,
+                    //                 <br />
+                    //                 Time: 02:00 PM.
+                    //             </p>
+
+                    //             <h2>Venue:</h2>
+                    //             <p>
+                    //                 KKB Function Hall,
+                    //                 <br /> NGO's Colony,
+                    //                 <br /> Adoni.
+                    //             </p>
+                    //         </div>
+                    //         <div
+                    //             className="col-lg-6 right next"
+                    //             data-aos="fade-down"
+                    //             data-aos-offset="200"
+                    //             data-aos-delay="100"
+                    //         ></div>
+                    //     </div>
+                    </>                */}     
+                    
+                    
+                    {/* shukrana excluded */}
+                     <>
                         <div className="row">
                             <div
                                 className="col-lg-6 left next"
-                                data-aos="fade-down"
-                                data-aos-offset="200"
-                            ></div>
-                            <div
-                                className="col-lg-6 right next"
                                 data-aos="fade-down"
                                 data-aos-offset="200"
                             >
                                 <h1>Nikaah</h1>
                                 <p>
-                                    On Sunday, 05<sup>th</sup> November, 2023,
+                                    On Friday, 24<sup>th</sup> November, 2023,
                                     <br />
-                                    21<sup>st</sup> Rabi-ul-Aakhir, 1445 Hijri,
-                                    <br /> Time: 12:45 PM.
+                                    10<sup>th</sup> Rabi-us-Sani, 1445 Hijri,
+                                    <br />
+                                    Time: After Namaaz-e-Asr.
                                 </p>
 
-                                {/* <h2>Venue:</h2>
+                                <h2>Nikaah At:</h2>
                                 <p>
-                                    Masjid -e- Shekhan,
-                                    <br /> Near Yemmiganur By-pass Road,
-                                    <br /> Tirumala Nagar,
-                                    <br /> Adoni.
-                                </p> 
+                                    Masjid-e-Noor, 
+                                    <br /> Pension Lane, Mohammed Nagar,
+                                    <br /> New Bownpally,
+                                    <br /> Secunderabad.
+                                </p>
 
-                                <h2>Lunch Follows:</h2>
+                                <h2>Dinner Follows:</h2>
                                 <p>
-                                    Roshan Garden,
-                                    <br /> Near Art's College,
-                                    <br /> Yemmiganur Road,
-                                    <br /> Tirumala Nagar,
-                                    <br /> Adoni.
-                                </p> */}
-
-                                <h2>Venue:</h2>
-                                <p>
-                                    KKB Function Hall,
-                                    <br /> NGO's Colony,
-                                    <br /> Adoni.
+                                    Heritage Function Palace, 
+                                    <br /> Musheerabad Main Road,
+                                    <br /> Musheerabad, Bakaram,
+                                    <br /> Kavadiguda, Hyderabad
+                                    <br /> Telangana - 500020.
+                                    <br /> Time: 09:00 PM.
                                 </p>
                             </div>
+                            <div
+                                className="col-lg-6 right next"
+                                data-aos="fade-down"
+                                data-aos-offset="200"
+                            ></div>
                         </div>
                         <div className="row">
                             <div
@@ -130,92 +206,31 @@ function Timeline() {
                                 data-aos="fade-down"
                                 data-aos-offset="200"
                                 data-aos-delay="100"
-                            >
-                                <h1>Valima</h1>
-
-                                <p>
-                                    On Monday, 06<sup>th</sup> November, 2023,
-                                    <br />
-                                    22<sup>nd</sup> Rabi-ul-Aakhir, 1445 Hijri,
-                                    <br />
-                                    Time: 02:00 PM.
-                                </p>
-
-                                <h2>Venue:</h2>
-                                <p>
-                                    KKB Function Hall,
-                                    <br /> NGO's Colony,
-                                    <br /> Adoni.
-                                </p>
-                            </div>
+                            ></div>
                             <div
                                 className="col-lg-6 right next"
                                 data-aos="fade-down"
                                 data-aos-offset="200"
                                 data-aos-delay="100"
-                            ></div>
+                            >
+                                <h1>Valima</h1>
+                                <p>
+                                    On Sunday, 26<sup>th</sup> November, 2023,
+                                    <br />
+                                    12<sup>th</sup> Rabi-us-Sani, 1445 Hijri,
+                                    <br />
+                                    Time: 08:00 PM.
+                                </p>
+                                <h2>Venue:</h2>
+                                <p>
+                                    786 Garden Function Hall,
+                                    <br /> Moula Ali Road, S.P. Nagar,
+                                    <br /> Moula Ali, Secunderabad Road,
+                                    <br /> Moula Ali, Hyderabad.
+                                </p>
+                            </div>
                         </div>
-                    </>
-                    {/* shukrana excluded */}
-                    {/* <>
-        //                 <div className="row">
-        //                     <div
-        //                         className="col-lg-6 left next"
-        //                         data-aos="fade-down"
-        //                         data-aos-offset="200"
-        //                     >
-        //                         <h1>Nikaah</h1>
-        //                         <p>
-        //                             On Saturday, 24<sup>th</sup> November, 2023,
-        //                             <br />
-        //                             06<sup>th</sup> Rabi-ul-Aakhir, 1445 Hijri,
-        //                             <br />
-        //                             Time: 11:45 AM.
-        //                         </p>
-
-        //                         <h2>Venue:</h2>
-        //                         <p>
-        //                             St. Anthony Function Hall,
-        //                             <br /> St. Joseph School Road,
-        //                             <br /> Bellari.
-        //                         </p>
-        //                     </div>
-        //                     <div
-        //                         className="col-lg-6 right next"
-        //                         data-aos="fade-down"
-        //                         data-aos-offset="200"
-        //                     ></div>
-        //                 </div>
-        //                 <div className="row">
-        //                     <div
-        //                         className="col-lg-6 left next"
-        //                         data-aos="fade-down"
-        //                         data-aos-offset="200"
-        //                         data-aos-delay="100"
-        //                     ></div>
-        //                     <div
-        //                         className="col-lg-6 right next"
-        //                         data-aos="fade-down"
-        //                         data-aos-offset="200"
-        //                         data-aos-delay="100"
-        //                     >
-        //                         <h1>Valima</h1>
-        //                         <p>
-        //                             On Sunday, 25<sup>th</sup> November, 2023,
-        //                             <br />
-        //                             07<sup>th</sup> Rabi-ul-Aakhir, 1445 Hijri,
-        //                             <br />
-        //                             Time: 01:00 PM.
-        //                         </p>
-        //                         <h2>Venue:</h2>
-        //                         <p>
-        //                             Karnataka Function Hall,
-        //                             <br /> Hospet Road,
-        //                             <br /> Bellari.
-        //                         </p>
-        //                     </div>
-        //                 </div>
-        //             </> */}
+                    </> 
                 </div>
             </div>
         </section>
