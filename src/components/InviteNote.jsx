@@ -14,7 +14,7 @@ function InviteNote() {
                 </h5> */}
         <h5 className="address mb-3">
           Residence: Pension Lane, Mohammed Nagar,
-          <br /> New Bownpally,
+          <br /> New Bowenpally,
           <br /> Secunderabad.
         </h5>
         <p className="address">

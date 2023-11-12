@@ -79,7 +79,7 @@ function CustomModel1() {
               className="line-divider mb-4"
             />
             <h4 className="from">From:</h4>
-            <h4 className="invitor-name mb-4">Mr. & Mrs. Syed Mohammed Ayub</h4>
+            <h4 className="invitor-name mb-4">Mrs. & Mr. Syed Mohammed Ayub</h4>
             <button
               className="btn btn-primary open-button"
               onClick={handleClick}
